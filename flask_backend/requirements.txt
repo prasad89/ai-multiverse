@@ -1,0 +1,8 @@
+cohere
+openai
+replicate
+flask
+flask_cors
+# transformers
+python_dotenv
+# torch

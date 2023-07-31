@@ -1,0 +1,3 @@
+react_frontend/node_modules
+flask_backend/.venv
+.env

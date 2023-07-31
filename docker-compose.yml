@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  flask_backend:
+    build:
+      context: flask_backend/
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - react_frontend
+
+  react_frontend:
+    build:
+      context: react_frontend/
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
